@@ -1,0 +1,20 @@
+[color]
+    ui = true
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+[pull]
+	rebase = preserve
+[push]
+	default = current
+[branch]
+	autosetupmerge = true
+	autosetuprebase = always
+[remote "origin"]
+	prune = true
+[user]
+	email = ragnar.rova@gmail.com
+	name = Ragnar Rova
+[core]
+	excludesfile = /Users/rrj/.gitignore_global
