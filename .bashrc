@@ -21,7 +21,7 @@ export HISTSIZE=1000000
 
 shopt -s checkwinsize
 source ~/.git-prompt.sh
-PROMPT_COMMAND='__git_ps1 "[\W]" "\\\\$ "'
+PROMPT_COMMAND='__git_ps1 "\h:\W" "\\\\$ "'
 alias ls='ls -G'
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
